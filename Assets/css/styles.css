@@ -239,3 +239,82 @@ h2, h3 {
      padding: 10px 30px;
      cursor: pointer;
  }
+
+ /* Media Queries */
+
+ @-ms-viewport {
+     width: device-width;
+ }
+ 
+ @media screen and (max-width:980px) {
+    
+        #main-container, {
+            padding-top: 130px;
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 60%;
+        }
+        
+        .sidebar {
+            width: 40%;
+            margin-top: 130px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .work {
+            width: 60%;
+        }
+    }
+    
+        
+ 
+
+ @media screen and (max-width:768px) {
+    #main-container  {
+        padding-top: 130px;
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sidebar {
+       
+        width: 100%;
+        max-width: 768px;
+        float: left;
+        margin: 20px;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    .work {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    
+ }
+
+
+ @media screen and (max-width:640px) {
+    #logo {
+        width: 100%;
+    }
+   
+    .auth-image {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .work {
+        width: 100%;
+        padding: 20px;
+    }
+    
+ }
