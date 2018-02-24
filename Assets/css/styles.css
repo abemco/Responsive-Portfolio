@@ -249,24 +249,28 @@ h2, h3 {
  @media screen and (max-width:980px) {
     
         #main-container, {
+            float: left;
             padding-top: 130px;
             margin: 0 auto;
-            padding-left: 10px;
+            padding-left: 50px;
             padding-right: 10px;
-            width: 60%;
+            width: 56%;
         }
         
         .sidebar {
-            width: 40%;
-            margin-top: 130px;
-            padding-left: 10px;
-            padding-right: 10px;
+            width: 30%;
+                        margin-right: 0;
         }
 
         .work {
-            width: 60%;
-        }
+            float: left;
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 46%;
+            margin: 0 auto;
     }
+ }
     
         
  
@@ -280,21 +284,20 @@ h2, h3 {
     }
 
     .sidebar {
-       
         width: 100%;
         max-width: 768px;
         float: left;
         margin: 20px;
         padding-top: 40px;
         padding-left: 30px;
-        padding-right: 50px;
+        padding-right: 70px;
         text-align: center;
     }
 
     .work {
         padding-left: 10px;
         padding-right: 10px;
-        width: 50%;
+        width: 46%;
         margin: 0 auto;
         
     }
@@ -307,6 +310,11 @@ h2, h3 {
         width: 100%;
     }
    
+    .nav {
+        padding-right: 70px;
+        text-align: center;
+    
+    }
     .auth-image {
         width: 100%;
         padding: 10px;
@@ -316,5 +324,9 @@ h2, h3 {
         width: 100%;
         padding: 20px;
     }
+
+    #main-container {
+        padding-top: 200px;
+    }
     
- }
+}
